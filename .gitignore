@@ -1,6 +1,6 @@
 # ignore all .a files
 *.a
-
+.venv310/
 # but do track lib.a, even though you're ignoring .a files above
 !lib.a
 
