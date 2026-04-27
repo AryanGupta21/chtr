@@ -3,7 +3,7 @@
 .venv310/
 # but do track lib.a, even though you're ignoring .a files above
 !lib.a
-
+ICBHI_final_database/
 # only ignore the TODO file in the current directory, not subdir/TODO
 /TODO
 
@@ -15,3 +15,7 @@ doc/*.txt
 
 # ignore all .pdf files in the doc/ directory and any of its subdirectories
 doc/**/*.pdf
+
+.venv/
+node_modules/
+.DS_Store
